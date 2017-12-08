@@ -1,40 +1,128 @@
-body {
-  position: relative;
+
+.intro-section{
+  background: url("../images/background_var.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.navbar-default{
+  background: transparent;¨
+  border: none;
+
+}
+.navbar {
+  border: none;
+}
+.navbar-default .navbar-nav>li>a {
+  font-family: mnbk;
+  color: rgb(28, 25, 24);
+
+}
+.badges{
+margin: none;
+
+
+}
+.badges img{
+  width: 80px;
+  height: 80px;
+  margin-top: 15px;
+
+}
+.addMargin{
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+.preview img{
+  width: 100%;
+  height: 100%;
+  box-shadow: -10px 10px 5px -3px #616161;
+
+
 }
 
-#section1 {
-  padding-top: 50px;
-  height: 500px;
-  color: #fff;
-  background-color: #1E88E5;
+
+.vertical-align {
+  display: flex;
+  align-items: center;
 }
 
-#section2 {
-  padding-top: 50px;
-  height: 500px;
-  color: #fff;
-  background-color: #673ab7;
+h1,h2,h3{
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
-#section3 {
-  padding-top: 50px;
-  height: 500px;
-  color: #fff;
-  background-color: #ff9800;
+.scroll-style {
+    font-size: 2rem;
+    text-shadow: 1px 1px #262d32;
+}
+.margin_me{
+  margin-top: 10%;
+}
+/**********************************Hover Transition *************************/
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 
-#section41 {
-  padding-top: 50px;
-  height: 500px;
-  color: #fff;
-  background-color: #00bcd4;
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
 }
 
-#section42 {
-  padding-top: 50px;
-  height: 500px;
-  color: #fff;
-  background-color: #009688;
+.preview:hover .image, .preview.hover_effect {
+  opacity: 0.5;
+  filter: blur(3px);
+}
+.style1{
+  opacity: 0.5;
+  filter: blur(3px);
 }
 
-</style>
+.preview:hover .middle, .preview.hover_effect{
+  opacity: 1;
+}
+
+.style2{
+  transition: .5s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+.text a {
+  background-color: #6c9898;
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+
+@media (min-width: 768px){
+  .navbar-nav {
+    float: right;
+    margin-right: 1%;
+    margin-top: 0.5%;
+
+  }
+  .container{
+    width: 90%
+
+  }
+
+}
