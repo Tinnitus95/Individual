@@ -1,9 +1,24 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+body {
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.8;
+  background: linear-gradient(#100900 , #3e3a39 ,#100900 )no-repeat fixed;
+  color: #cabdbd;
+
+
+
+
+
+}
 
 .intro-section{
-  background: url("../images/background_var.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+
+
 
 }
 .navbar-default{
@@ -16,12 +31,42 @@
 }
 .navbar-default .navbar-nav>li>a {
   font-family: mnbk;
-  color: rgb(28, 25, 24);
+  color: rgb(107, 105, 103);
+
+}
+.navbar img{
+  position: absolute;
+  height: 56px;
+  width: 87px;
+}
+
+.glow{
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  box-shadow:
+  inset 0 0 50px #fff,      /* inner white */
+  inset 20px 0 80px #f0f,   /* inner left magenta short */
+  inset -20px 0 80px #0ff,  /* inner right cyan short */
+  inset 20px 0 300px #f0f,  /* inner left magenta broad */
+  inset -20px 0 300px #0ff, /* inner right cyan broad */
+  0 0 50px #fff,            /* outer white */
+  -10px 0 80px #f0f,        /* outer left magenta */
+  10px 0 80px #0ff;         /* outer right cyan */
+
+}
+.glowpic{
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
 
 }
 .badges{
-margin: none;
-
+  margin: none;
 
 }
 .badges img{
@@ -41,6 +86,11 @@ margin: none;
 
 
 }
+.logopic img{
+  width: 100%;
+  height: 100%
+
+}
 
 
 .vertical-align {
@@ -54,11 +104,14 @@ h1,h2,h3{
 }
 
 .scroll-style {
-    font-size: 2rem;
-    text-shadow: 1px 1px #262d32;
+  font-size: 2rem;
+  text-shadow: 1px 1px #262d32;
 }
 .margin_me{
   margin-top: 10%;
+}
+.contact-container{
+  padding-top: inherit;
 }
 /**********************************Hover Transition *************************/
 .image {
@@ -80,7 +133,7 @@ h1,h2,h3{
   -ms-transform: translate(-50%, -50%)
 }
 
-.preview:hover .image, .preview.hover_effect {
+.preview:hover .image, .preview.hover_effect, .preview:focus .image{
   opacity: 0.5;
   filter: blur(3px);
 }
@@ -89,7 +142,7 @@ h1,h2,h3{
   filter: blur(3px);
 }
 
-.preview:hover .middle, .preview.hover_effect{
+.preview:hover .middle, .preview.hover_effect,.preview:focus .middle{
   opacity: 1;
 }
 
@@ -104,12 +157,15 @@ h1,h2,h3{
 }
 
 .text a {
-  background-color: #6c9898;
+  background-color: #0ff ;
   color: black;
   font-size: 16px;
   padding: 16px 32px;
 }
 
+.formular{
+  margin-bottom: 15px;
+}
 
 
 

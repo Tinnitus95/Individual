@@ -1,5 +1,5 @@
 #myFooter {
-    background-color: #182c39;
+  /*  background-color: #100900;*/
     color: white;
     padding-top: 20px;
 }
@@ -16,7 +16,7 @@
 }
 
 #myFooter .footer-copyright {
-    background-color: #10222e;
+  /*  background-color: #100900;*/
     padding-top: 3px;
     padding-bottom: 3px;
     text-align: center;
@@ -78,27 +78,27 @@
 }
 
 #myFooter .fa-facebook:hover {
-    color: #2b55ff;
+    color: #4267b2;
 }
 
 #myFooter .fa-facebook:focus {
-    color: #2b55ff;
+    color: #4267b2;
 }
 
 #myFooter .fa-google-plus:hover {
-    color: red;
+    color: #E53935;
 }
 
 #myFooter .fa-google-plus:focus {
-    color: red;
+    color: #E53935;
 }
 
-#myFooter .fa-twitter:hover {
-    color: #00aced;
+#myFooter .fa-linkedin:hover {
+    color: #0084bf;
 }
 
-#myFooter .fa-twitter:focus {
-    color: #00aced;
+#myFooter .fa-linkedin:focus {
+    color: #0084bf;
 }
 
 @media screen and (max-width: 767px) {
