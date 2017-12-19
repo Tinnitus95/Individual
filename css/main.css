@@ -6,19 +6,12 @@ body {
   line-height: 1.8;
   background: linear-gradient(#100900 , #3e3a39 ,#100900 )no-repeat fixed;
   color: #cabdbd;
-
-
-
-
-
 }
 
-.intro-section{
-
-
-
+.intro-section {
+    
 }
-.navbar-default{
+.navbar-default {
   background: transparent;¨
   border: none;
 
@@ -26,18 +19,19 @@ body {
 .navbar {
   border: none;
 }
+
 .navbar-default .navbar-nav>li>a {
   font-family: mnbk;
   color: rgb(107, 105, 103);
 
 }
-.navbar img{
+.navbar img {
   position: absolute;
   height: 56px;
   width: 87px;
 }
 
-.glow{
+.glow {
   margin: auto;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
@@ -56,34 +50,34 @@ body {
   10px 0 80px #0ff;         /* outer right cyan */
 
 }
-.glowpic{
+.glowpic {
   margin: auto;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
 
 }
-.badges{
+.badges {
   margin: none;
 
 }
-.badges img{
+.badges img {
   width: 80px;
   height: 80px;
   margin-top: 15px;
 
 }
-.addMargin{
+.addMargin {
   margin-bottom: 10%;
   margin-top: 5%;
 }
-.preview img{
+.preview img {
   width: 100%;
   height: 100%;
   box-shadow: -10px 10px 5px -3px #616161;
 
 
 }
-.logopic img{
+.logopic img {
   width: 100%;
   height: 100%
 
@@ -95,7 +89,7 @@ body {
   align-items: center;
 }
 
-h1,h2,h3{
+h1,h2,h3 {
   margin-top: 20px;
   margin-bottom: 15px;
 }
@@ -104,12 +98,13 @@ h1,h2,h3{
   font-size: 2rem;
   text-shadow: 1px 1px #262d32;
 }
-.margin_me{
+.margin_me {
   margin-top: 10%;
 }
-.contact-container{
+.contact-container {
   padding-top: inherit;
 }
+
 /**********************************Hover Transition *************************/
 .image {
   opacity: 1;
@@ -130,20 +125,25 @@ h1,h2,h3{
   -ms-transform: translate(-50%, -50%)
 }
 
-.preview:hover .image, .preview.hover_effect, .preview:focus .image{
+.preview:hover .image,
+.preview.hover_effect,
+.preview:focus .image{
   opacity: 0.5;
   filter: blur(3px);
 }
+
 .style1{
   opacity: 0.5;
   filter: blur(3px);
 }
 
-.preview:hover .middle, .preview.hover_effect,.preview:focus .middle{
+.preview:hover .middle,
+.preview.hover_effect,
+.preview:focus .middle {
   opacity: 1;
 }
 
-.style2{
+.style2 {
   transition: .5s ease;
   position: absolute;
   top: 50%;
@@ -160,11 +160,9 @@ h1,h2,h3{
   padding: 16px 32px;
 }
 
-.formular{
+.formular {
   margin-bottom: 15px;
 }
-
-
 
 @media (min-width: 768px){
   .navbar-nav {
