@@ -1,0 +1,31 @@
+ Redogörelse för individuella projektet:
+
+ HTML:
+ Jag har försökt hålla viss semantik i HTML:en, då jag har en one page scroll så
+ har jag valt att dela upp den in sektioner, detta underlättar förståelsen när en
+ utomstående läser koden. Man kan snabbt se vilken del som innehåller vilken information
+ och således blir det lätt att ändra i koden.
+
+ Jag har använt olika storlekar på rubriker från h1-h3, detta gör sidan lättläst
+ och det blir tydligare layoutmässsigt.
+
+ Dessutom så har jag använt mig av tagarna "<nav>" och "<footer>", åter där så blir
+ det lättre för en utomstående att läsa koden ochn förstå vilken del av koden som
+ visar vad på sidan.
+
+
+ CCS:
+
+ Då jag primärt har använt mig av bootstrap för layout så har jag inte skrivit så
+ mycket CSS själv, den CSS jag har skrivit är primärt för att skriva över den style
+ som jag inte gillade. Jag har så gott som möjligt placerat stylesen i den ordningen
+ som elementen kommer i HTML:en, för mig så blir det lättare att navigera.
+ Jag har även lekt lite med att skriva ett par väldigt generella styles så att jag
+ kunnat återanvända dessa på flera element, ungefär som bootstrap fungerar.
+
+ Ytterligare så har jag delat upp CSS:en lite så att man ser vilken del som hör till vad.
+ I början av HTML:en så har jag placerat en "reset", denna ser till så att alla styles
+ som browsern har förinställt försvinner, med hjälp av detta så får man en sida som
+ ser till större del lika dan ut oavsett vilken browser man använder
+
+ 
